@@ -12,6 +12,6 @@ static / see README
 Static site — see README for the build/serve steps.
 
 ## Conventions
-- Conventional commits, one logical change each; secrets never hardcoded; external API calls via a service layer; errors normalized before the client.
+- House standards (commit format, secrets, service layer, error normalization) are global: see `~/.claude/CLAUDE.md`. Only project-specific rules belong here.
 - Keep secrets out of the repo; document any build step in the README.
 
