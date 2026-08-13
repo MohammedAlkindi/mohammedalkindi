@@ -51,24 +51,26 @@ Also:
 
 ## Projects
 
-**[Ridge](https://github.com/MohammedAlkindi/Ridge)** — spreadsheet analysis you
-can audit. Statistics, data-quality grades and correlations are computed locally
-before any AI sees the file; the model can only explain evidence that already
-exists, never produce a number. No API key needed for the deterministic path.
+**[Ridge](https://github.com/MohammedAlkindi/Ridge)** ([live](https://ridge-data.vercel.app)) —
+spreadsheet analysis you can audit. Statistics, data-quality grades and
+correlations are computed locally before any AI sees the file; the model can
+only explain evidence that already exists, never produce a number. No API key
+needed for the deterministic path. 548 tests, green in CI.
 
-**[ProofX](https://github.com/MohammedAlkindi/ProofX)** — directed search for
-mathematical counterexamples. Every evaluation lands in a replayable ledger, and
-certifiable rows are exported as Lean 4 theorems the kernel actually checks. It
-claims "unrefuted at this budget", never "proved".
+**[ProofX](https://github.com/MohammedAlkindi/ProofX)** ([live](https://proofx.org)) —
+directed search for mathematical counterexamples. Every evaluation lands in a
+replayable ledger, and certifiable rows are exported as theorems a proof kernel
+actually checks. It claims "unrefuted at this budget", never "proved".
 
-**[Switchyard](https://github.com/MohammedAlkindi/Switchyard)** — run several AI
-coding agents on one repo without collisions. Each agent gets its own git
-worktree and branch, and merge conflicts are predicted before anyone merges.
+**[Switchyard](https://github.com/MohammedAlkindi/Switchyard)** ([live](https://switchyardhq.vercel.app)) —
+run several AI coding agents on one repo without collisions. Each agent gets its
+own git worktree and branch, and merge conflicts are predicted before anyone
+merges.
 
-**[OmanX](https://github.com/MohammedAlkindi/OmanX)** — visa and compliance
-guidance for Omani scholarship students abroad, answered only from approved
-government sources, with the safety-critical routing done by deterministic
-classifiers rather than the model.
+**[OmanX](https://github.com/MohammedAlkindi/OmanX)** ([live](https://omanx.org)) —
+visa and compliance guidance for Omani scholarship students abroad, answered
+only from approved government sources, with the safety-critical routing done by
+deterministic classifiers rather than the model.
 
 ## Now
 
@@ -78,6 +80,4 @@ human to sign off.
 
 ## Contact
 
-[alkindix.com](https://www.alkindix.com) ·
-[LinkedIn](https://www.linkedin.com/in/mohammed--alkindi) ·
-alkindi.ceo@gmail.com
+[LinkedIn](https://www.linkedin.com/in/mohammed--alkindi)
