@@ -2,31 +2,63 @@
 
 CS at UC San Diego · Data analytics at Shell
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logoColor=white)](https://www.linkedin.com/in/mohammed--alkindi)
+[![Website](https://img.shields.io/badge/alkindix.com-171717?style=for-the-badge)](https://www.alkindix.com)
+
 I build evidence-first data and developer tools: deterministic systems that
 compute what can be checked before a model explains it.
 
 ## Open source
 
-30+ merged upstream PRs. I focus on Windows, CI, and cross-platform reliability
-issues—the failure modes hosted Linux or elevated Windows CI often miss.
+39 merged upstream PRs across 17 repositories, and 39 more open, as of August
+2026. Most fix Windows, CI, and cross-platform reliability bugs, the failure
+modes hosted Linux CI misses.
 
-Selected work:
+Merged PRs, PRs under review, and bug reports across these organizations. Each
+badge links to the actual PRs and issues:
 
-- [NVIDIA NeMo Agent Toolkit #2169](https://github.com/NVIDIA/NeMo-Agent-Toolkit/pull/2169) — documented native Windows support boundaries.
-- [simple-statistics #814](https://github.com/simple-statistics/simple-statistics/pull/814) — made rank correlation stable when values tie.
-- [watchdog #1204](https://github.com/gorakhargosh/watchdog/pull/1204) — eliminated false deletion events from case-only Windows renames.
-- [OpenClaw](https://github.com/openclaw/openclaw/commit/34c90a8cb3fe32a657c6812d1b4087fba6c988b0) — co-authored a fix for orphaned Windows child-process trees.
+[![NVIDIA](https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3ANVIDIA&type=pullrequests)
+[![Microsoft](https://img.shields.io/badge/Microsoft-0078D4?style=for-the-badge)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Amicrosoft&type=pullrequests)
+[![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Aanthropics&type=pullrequests)
+[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Aopenai&type=pullrequests)
+[![Google](https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Agoogle&type=issues)
+[![Rust](https://img.shields.io/badge/rust--lang-B7410E?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Arust-lang&type=pullrequests)
+[![PyPA](https://img.shields.io/badge/PyPA-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Apypa&type=pullrequests)
+[![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Aexpressjs&type=pullrequests)
+[![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Aswiftlang&type=pullrequests)
 
-Active contributions: [Anthropic](https://github.com/anthropics/claude-agent-sdk-python/pull/1225), [NVIDIA](https://github.com/NVIDIA/garak/pull/2096), and [OpenClaw](https://github.com/openclaw/openclaw/pull/115960).
+Selected merged work:
+
+- [rust-lang/cc-rs #1866](https://github.com/rust-lang/cc-rs/pull/1866): flag-support probes now honor `Build::env` overrides.
+- [watchdog #1204](https://github.com/gorakhargosh/watchdog/pull/1204): eliminated false deletion events from case-only Windows renames.
+- [microsoft/apm #2645](https://github.com/microsoft/apm/pull/2645): plugin hook refs written with quotes now resolve.
+- [simple-statistics #814](https://github.com/simple-statistics/simple-statistics/pull/814): made rank correlation stable when values tie.
+- [pdm #3855](https://github.com/pdm-project/pdm/pull/3855): `pdm lock --append` keeps packages that install on other targets.
+- [OpenClaw #124299](https://github.com/openclaw/openclaw/pull/124299): doctor follows a macOS cloud symlink when the state dir leaf is absent.
+
+Under review:
+
+- [openai/openai-python #3634](https://github.com/openai/openai-python/pull/3634): make the test suite pass on a default Windows checkout.
+- [anthropics/claude-agent-sdk-python #1225](https://github.com/anthropics/claude-agent-sdk-python/pull/1225): decode git worktree paths as UTF-8.
+- [NVIDIA/garak #2096](https://github.com/NVIDIA/garak/pull/2096): set UTF-8 stdout in the console entry point.
+- [swiftlang/swift-org-website #1503](https://github.com/swiftlang/swift-org-website/pull/1503): update the Windows manual install page to SDK 22621.
+
+Bug reports ship with a reproduction. Two recent ones:
+[google/glazier #796](https://github.com/google/glazier/issues/796) and
+[google/python-fire #693](https://github.com/google/python-fire/issues/693).
 
 ## Projects
 
-- [Ridge](https://github.com/MohammedAlkindi/ridge) · [live](https://ridge-data.vercel.app) — evidence-first spreadsheet analysis.
-- [ProofX](https://github.com/MohammedAlkindi/proofx) · [live](https://proofx.org) — replayable searches for mathematical counterexamples.
-- [Quant](https://github.com/MohammedAlkindi/quant) — cost-aware, reproducible quantitative research.
-- [Switchyard](https://github.com/MohammedAlkindi/switchyard) · [live](https://switchyardhq.vercel.app) — safe multi-agent worktrees for one repository.
-- [OmanX](https://omanx.org) — source-grounded visa and compliance guidance for Omani students abroad.
+- [Ridge](https://github.com/MohammedAlkindi/ridge) · [live](https://ridge-data.vercel.app): evidence-first spreadsheet analysis.
+- [ProofX](https://github.com/MohammedAlkindi/proofx) · [live](https://proofx.org): replayable searches for mathematical counterexamples.
+- [Quant](https://github.com/MohammedAlkindi/quant): cost-aware, reproducible quantitative research.
+- [Switchyard](https://github.com/MohammedAlkindi/switchyard) · [live](https://switchyardhq.vercel.app): safe multi-agent worktrees for one repository.
+- [OmanX](https://omanx.org): source-grounded visa and compliance guidance for Omani students abroad.
+
+## Off the keyboard
+
+Badminton and photography.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/mohammed--alkindi)
+[LinkedIn](https://www.linkedin.com/in/mohammed--alkindi) · [alkindix.com](https://www.alkindix.com)
