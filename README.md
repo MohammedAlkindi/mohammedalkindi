@@ -10,9 +10,9 @@ compute what can be checked before a model explains it.
 
 ## Open source
 
-39 merged upstream PRs across 17 repositories, and 39 more open, as of August
-2026. Most fix Windows, CI, and cross-platform reliability bugs, the failure
-modes hosted Linux CI misses.
+40 merged upstream PRs across 17 repositories as of August 2026. Most fix
+Windows, CI, and cross-platform reliability bugs, the failure modes hosted
+Linux CI misses.
 
 Merged PRs, PRs under review, and bug reports across these organizations. Each
 badge links to the actual PRs and issues:
@@ -36,29 +36,18 @@ Selected merged work:
 - [pdm #3855](https://github.com/pdm-project/pdm/pull/3855): `pdm lock --append` keeps packages that install on other targets.
 - [OpenClaw #124299](https://github.com/openclaw/openclaw/pull/124299): doctor follows a macOS cloud symlink when the state dir leaf is absent.
 
-Under review:
-
-- [openai/openai-python #3634](https://github.com/openai/openai-python/pull/3634): make the test suite pass on a default Windows checkout.
-- [anthropics/claude-agent-sdk-python #1225](https://github.com/anthropics/claude-agent-sdk-python/pull/1225): decode git worktree paths as UTF-8.
-- [NVIDIA/garak #2096](https://github.com/NVIDIA/garak/pull/2096): set UTF-8 stdout in the console entry point.
-- [swiftlang/swift-org-website #1503](https://github.com/swiftlang/swift-org-website/pull/1503): update the Windows manual install page to SDK 22621.
-
 Bug reports ship with a reproduction. Two recent ones:
 [google/glazier #796](https://github.com/google/glazier/issues/796) and
 [google/python-fire #693](https://github.com/google/python-fire/issues/693).
 
 ## Projects
 
-- [Ridge](https://github.com/MohammedAlkindi/ridge) · [live](https://ridge-data.vercel.app): evidence-first spreadsheet analysis.
-- [ProofX](https://github.com/MohammedAlkindi/proofx) · [live](https://proofx.org): replayable searches for mathematical counterexamples.
-- [Quant](https://github.com/MohammedAlkindi/quant): cost-aware, reproducible quantitative research.
-- [Switchyard](https://github.com/MohammedAlkindi/switchyard) · [live](https://switchyardhq.vercel.app): safe multi-agent worktrees for one repository.
+- [Ridge](https://ridge-data.vercel.app): evidence-first spreadsheet analysis.
+- [ProofX](https://proofx.org): replayable searches for mathematical counterexamples.
+- [Switchyard](https://switchyardhq.vercel.app): safe multi-agent worktrees for one repository.
+- [contextbill](https://contextbill.vercel.app): local-first cost analysis for coding-agent transcripts.
 - [OmanX](https://omanx.org): source-grounded visa and compliance guidance for Omani students abroad.
 
 ## Off the keyboard
 
 Badminton and photography.
-
-## Contact
-
-[LinkedIn](https://www.linkedin.com/in/mohammed--alkindi) · [alkindix.com](https://www.alkindix.com)
