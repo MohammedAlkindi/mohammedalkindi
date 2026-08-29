@@ -14,7 +14,8 @@ compute what can be checked before a model explains it.
 Windows, CI, and cross-platform reliability bugs, the failure modes hosted
 Linux CI misses.
 
-Merged PRs, PRs under review, and bug reports across these organizations. Each
+Merged PRs, PRs under review, and bug reports across these organizations and
+projects. Each
 badge links to the actual PRs and issues:
 
 [![NVIDIA](https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3ANVIDIA&type=pullrequests)
@@ -22,10 +23,16 @@ badge links to the actual PRs and issues:
 [![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Aanthropics&type=pullrequests)
 [![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Aopenai&type=pullrequests)
 [![Google](https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Agoogle&type=issues)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Ahuggingface&type=issues)
 [![Rust](https://img.shields.io/badge/rust--lang-B7410E?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Arust-lang&type=pullrequests)
 [![PyPA](https://img.shields.io/badge/PyPA-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Apypa&type=pullrequests)
 [![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Aexpressjs&type=pullrequests)
 [![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Aswiftlang&type=pullrequests)
+[![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Apydantic&type=pullrequests)
+[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Asqlalchemy&type=pullrequests)
+[![Abseil](https://img.shields.io/badge/Abseil-5F6368?style=for-the-badge)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Aabseil&type=pullrequests)
+[![simple-statistics](https://img.shields.io/badge/simple--statistics-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Asimple-statistics&type=pullrequests)
+[![watchdog](https://img.shields.io/badge/watchdog-1D3557?style=for-the-badge&logo=python&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+repo%3Agorakhargosh%2Fwatchdog&type=pullrequests)
 
 Selected merged work:
 
