@@ -35,7 +35,6 @@ Bug reports ship with a reproduction:
 [google/python-fire #693](https://github.com/google/python-fire/issues/693).
 
 I work with coding agents and disclose it upstream wherever a project asks.
-What I put my name on, I have run and verified myself.
 
 ## Projects
 
