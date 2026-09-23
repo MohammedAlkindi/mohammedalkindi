@@ -8,6 +8,15 @@ CS at UC San Diego · Data analytics at Shell
 I build evidence-first data and developer tools: deterministic systems that
 compute what can be checked before a model explains it.
 
+## Stack
+
+- **Languages:** Python, TypeScript, JavaScript, SQL, Rust, Go, Lean 4, Solidity
+- **Backend and data:** FastAPI, Express, SQLAlchemy, PostgreSQL, Supabase, Redis, Celery, pandas, NumPy, scikit-learn, PyTorch, statsmodels
+- **Frontend:** React, Next.js, Vite, Tailwind CSS
+- **AI and LLM:** Anthropic API, Model Context Protocol (MCP), ChromaDB, sentence-transformers, OpenTelemetry
+- **Testing and CI:** pytest, Vitest, Playwright, tox, mypy, Ruff, ESLint, GitHub Actions
+- **Tools and deploy:** Git, Docker, Vercel, uv, pdm, Claude Code
+
 ## Open source
 
 64 merged upstream PRs across 21 repositories as of 2 September 2026. Most fix
