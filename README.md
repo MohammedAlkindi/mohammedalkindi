@@ -1,58 +1,32 @@
+
 # Mohammed Alkindi
 
-CS at UC San Diego · Data analytics at Shell
+Computer science student at UC San Diego. I spent summer 2026 as a data analyst intern at Shell Kuwait, building the Python tool that turns their daily production spreadsheets into checked reports.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logoColor=white)](https://www.linkedin.com/in/mohammed--alkindi)
-[![Website](https://img.shields.io/badge/alkindix.com-171717?style=for-the-badge)](https://www.alkindix.com)
+Most of my time on GitHub goes into fixing bugs in other people's projects, mostly Windows path handling, CI and correctness. As of October 2026 that is [161 merged pull requests across 43 repositories](https://github.com/search?q=author%3AMohammedAlkindi+-user%3AMohammedAlkindi+is%3Amerged&type=pullrequests). I use coding agents for much of this work and say so wherever a project asks.
 
-I build evidence-first data and developer tools: deterministic systems that
-compute what can be checked before a model explains it.
+## Where the merged work is
 
-## Stack
+- [Microsoft](https://github.com/search?q=author%3AMohammedAlkindi+org%3Amicrosoft+is%3Amerged&type=pullrequests): 36, mostly docs and CI fixes in hve-core, plus apm, onnxscript and playwright-python
+- [simple-statistics](https://github.com/search?q=author%3AMohammedAlkindi+org%3Asimple-statistics+is%3Amerged&type=pullrequests): 23
+- [NVIDIA](https://github.com/search?q=author%3AMohammedAlkindi+org%3ANVIDIA+org%3ANVIDIA-NeMo+is%3Amerged&type=pullrequests): 19, in Automodel, NeMo Agent Toolkit and SkillSpector
+- [NegPy](https://github.com/search?q=author%3AMohammedAlkindi+repo%3Amarcinz606%2FNegPy+is%3Amerged&type=pullrequests): 17
+- [watchdog](https://github.com/search?q=author%3AMohammedAlkindi+repo%3Agorakhargosh%2Fwatchdog+is%3Amerged&type=pullrequests): 10
 
-- **Languages:** Python, TypeScript, JavaScript, SQL, Rust, Go, Lean 4, Solidity
-- **Backend and data:** FastAPI, Express, SQLAlchemy, PostgreSQL, Supabase, Redis, Celery, pandas, NumPy, scikit-learn, PyTorch, statsmodels
-- **Frontend:** React, Next.js, Vite, Tailwind CSS
-- **AI and LLM:** Anthropic API, Model Context Protocol (MCP), ChromaDB, sentence-transformers, OpenTelemetry
-- **Testing and CI:** pytest, Vitest, Playwright, tox, mypy, Ruff, ESLint, GitHub Actions
-- **Tools and deploy:** Git, Docker, Vercel, uv, pdm, Claude Code
+A few examples:
 
-## Open source
-
-64 merged upstream PRs across 21 repositories as of 2 September 2026. Most fix
-Windows, CI, and cross-platform reliability bugs, the failure modes hosted
-Linux CI misses.
-
-Every badge links to my **merged** pull requests in that project:
-
-[![Microsoft](https://img.shields.io/badge/Microsoft-0078D4?style=for-the-badge)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Amicrosoft+is%3Amerged&type=pullrequests)
-[![NVIDIA](https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3ANVIDIA+is%3Amerged&type=pullrequests)
-[![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Aanthropics+is%3Amerged&type=pullrequests)
-[![simple-statistics](https://img.shields.io/badge/simple--statistics-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://github.com/search?q=author%3AMohammedAlkindi+org%3Asimple-statistics+is%3Amerged&type=pullrequests)
-[![watchdog](https://img.shields.io/badge/watchdog-1D3557?style=for-the-badge&logo=python&logoColor=white)](https://github.com/search?q=author%3AMohammedAlkindi+repo%3Agorakhargosh%2Fwatchdog+is%3Amerged&type=pullrequests)
-
-Selected merged work:
-
-- [simple-statistics #814](https://github.com/simple-statistics/simple-statistics/pull/814): rank correlation stays stable when values tie.
-- [microsoft/apm #2645](https://github.com/microsoft/apm/pull/2645): plugin hook refs written with quotes now resolve.
-- [rust-lang/cc-rs #1866](https://github.com/rust-lang/cc-rs/pull/1866): flag probes honor `Build::env` overrides.
-- [watchdog #1204](https://github.com/gorakhargosh/watchdog/pull/1204): case-only Windows renames no longer fire false deletions.
-- [mhammond/pywin32 #2795](https://github.com/mhammond/pywin32/pull/2795): `win32api.GetFullPathName` no longer returns empty for long paths.
-
-Bug reports ship with a reproduction:
-[google/glazier #796](https://github.com/google/glazier/issues/796) and
-[google/python-fire #693](https://github.com/google/python-fire/issues/693).
-
-I work with coding agents and disclose it upstream wherever a project asks.
+- [microsoft/apm #2941](https://github.com/microsoft/apm/pull/2941): installs failed on Windows once staging paths passed 260 characters. Shorter generated path segments fixed it.
+- [microsoft/onnxscript #3027](https://github.com/microsoft/onnxscript/pull/3027): a default optimizer rule that folds BatchNorm into Gemm ignored Gemm's beta, so rewritten models returned wrong numbers with no error.
+- [watchdog #1204](https://github.com/gorakhargosh/watchdog/pull/1204): renaming `file` to `FILE` on Windows fired a false deletion event.
 
 ## Projects
 
-- [ridge](https://ridge-data.vercel.app): evidence-first spreadsheet analysis.
-- [proofx](https://proofx.org): replayable searches for mathematical counterexamples.
-- [switchyard](https://switchyardhq.vercel.app): safe multi-agent worktrees for one repository.
-- [contextbill](https://contextbill.vercel.app): local-first cost analysis for coding-agent transcripts.
-- [omanx](https://omanx.org): source-grounded visa and compliance guidance for Omani students abroad.
+- [Ridge](https://ridge-data.vercel.app): spreadsheet analysis that computes the statistics before an LLM explains them.
+- [Switchyard](https://switchyardhq.vercel.app): gives each coding agent its own git worktree so several can work on one repo. On npm.
+- [ProofX](https://proofx.org): counterexample search for number theory conjectures, with replayable runs. Paused.
+- [contextbill](https://contextbill.vercel.app): prices Claude Code sessions from your local transcripts.
+- [OmanX](https://omanx.org): answers visa and compliance questions for Omani students abroad, with sources.
 
-## Off the keyboard
+[LinkedIn](https://www.linkedin.com/in/mohammed--alkindi) · [alkindix.com](https://www.alkindix.com) · [Resume](https://www.alkindix.com/resume.pdf)
 
-Badminton and photography.
+Off the keyboard: badminton and photography.
