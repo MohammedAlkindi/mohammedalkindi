@@ -1,10 +1,12 @@
 # Mohammed Alkindi
 
-Computer science student at UC San Diego. I build developer tools, data systems, and formal verification experiments. Upstream contributor focused on distributed ML systems, numerical correctness, and OS interop.
+Computer science student at UC San Diego. Upstream contributor with [227+ merged pull requests](https://github.com/search?q=author%3AMohammedAlkindi+-user%3AMohammedAlkindi+is%3Apr+is%3Amerged&type=pullrequests) across Microsoft and NVIDIA. Focused on distributed ML systems, numerical correctness, OS interoperability, and deterministic data infrastructure.
 
-In summer 2026, I was a data analyst intern at Shell Kuwait, building a Python tool that turns daily production spreadsheets into checked reports.
+In summer 2026, I was a data analyst intern at Shell Kuwait, building a Python tool that validated daily production spreadsheets into checked reports.
 
 [Resume](https://www.alkindix.com/resume.pdf) · [Portfolio](https://www.alkindix.com) · [LinkedIn](https://www.linkedin.com/in/mohammed--alkindi) · [Email](mailto:malkindi@ucsd.edu)
+
+> **Activity note:** My GitHub contribution graph reflects daily engineering, upstream pull requests, and automated workspace telemetry from local agent harnesses. I prioritize verifiable upstream merges and reproducible test coverage over raw commit volume.
 
 ## Selected projects
 
@@ -19,12 +21,18 @@ In summer 2026, I was a data analyst intern at Shell Kuwait, building a Python t
 ## Selected merged fixes
 
 - **Compiler numerical correctness: [microsoft/onnxscript #3027](https://github.com/microsoft/onnxscript/pull/3027).** Fusing BatchNorm into Gemm silently changed model outputs when Gemm used a non-default `beta`. I corrected the bias scaling and removed the forwarded attribute, with parameterized numerical regression tests.
-- **ML distributed systems & quantization: [NVIDIA-NeMo/Automodel #4178](https://github.com/NVIDIA-NeMo/Automodel/pull/4178), [#4058](https://github.com/NVIDIA-NeMo/Automodel/pull/4058).** Fixed FP8 emulation flags for rowwise quantization recipes and mapped FSDP expert shards with `torch.chunk` memory layout under context parallelism.
+- **ML distributed systems and quantization: [NVIDIA-NeMo/Automodel #4178](https://github.com/NVIDIA-NeMo/Automodel/pull/4178), [#4058](https://github.com/NVIDIA-NeMo/Automodel/pull/4058).** Fixed FP8 emulation flags for rowwise quantization recipes and mapped FSDP expert shards with `torch.chunk` memory layout under context parallelism.
 - **Filesystem events: [watchdog #1204](https://github.com/gorakhargosh/watchdog/pull/1204).** Renaming `file` to `FILE` on Windows produced a false deletion event. I filtered the redundant native record and added file, directory, and genuine-deletion regression cases.
-- **Windows installs: [microsoft/apm #2941](https://github.com/microsoft/apm/pull/2941).** Generated staging names consumed too much of the Windows path budget. I shortened them while preserving cleanup of older staging directories; regression tests cover path headroom and both naming formats.
+- **Windows installs: [microsoft/apm #2941](https://github.com/microsoft/apm/pull/2941).** Generated staging names consumed too much of the Windows path budget. I shortened them while preserving cleanup of older staging directories. Regression tests cover path headroom and both naming formats.
 - **Network serialization: [microsoft/playwright-python #2748](https://github.com/microsoft/playwright-python/pull/2748).** Preserved blank values in `Request.post_data_json` for form bodies to prevent payload dropping on downstream API validation.
 
 As of November 2026: **[227+ merged upstream pull requests](https://github.com/search?q=author%3AMohammedAlkindi+-user%3AMohammedAlkindi+is%3Apr+is%3Amerged&type=pullrequests)**, including **[78 at Microsoft](https://github.com/search?q=author%3AMohammedAlkindi+org%3Amicrosoft+is%3Apr+is%3Amerged&type=pullrequests)** and **[22 at NVIDIA](https://github.com/search?q=author%3AMohammedAlkindi+org%3ANVIDIA+org%3ANVIDIA-NeMo+is%3Apr+is%3Amerged&type=pullrequests)**. Other contribution records: [simple-statistics](https://github.com/search?q=author%3AMohammedAlkindi+repo%3Asimple-statistics%2Fsimple-statistics+is%3Apr+is%3Amerged&type=pullrequests), [watchdog](https://github.com/search?q=author%3AMohammedAlkindi+repo%3Agorakhargosh%2Fwatchdog+is%3Apr+is%3Amerged&type=pullrequests), and [QwenLM](https://github.com/search?q=author%3AMohammedAlkindi+org%3AQwenLM+is%3Apr+is%3Amerged&type=pullrequests).
+
+## How I build
+
+- **Deterministic computation first.** Models summarize and explain, but numbers, statistics, and signals are computed deterministically.
+- **Reproducible execution ledgers.** Every experiment and backtest records seeds, revisions, and execution traces so outcomes can be replayed and audited.
+- **Upstream correctness.** Defects are solved by reproducing the failure, writing the regression test first, and fitting maintainer constraints.
 
 ## Other work
 
