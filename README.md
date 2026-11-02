@@ -17,6 +17,7 @@ In summer 2026, I was a data analyst intern at Shell Kuwait, building a Python t
 | **Ridge** | Spreadsheet analysis that computes statistics and data-quality evidence deterministically before optional model interpretation. | [Source](https://github.com/MohammedAlkindi/ridge) · [Demo](https://ridge-data.vercel.app) |
 | **Quant** | Out-of-sample, cost-aware backtesting for trading signals, served over FastAPI with an open numerical audit log (`docs/audit.md`). | [Source](https://github.com/MohammedAlkindi/quant) · [Audit log](https://github.com/MohammedAlkindi/quant/blob/main/docs/audit.md) |
 | **Pulse** | Local-first weekly review of Gmail, GitHub, and Notion activity where every claim carries an inspectable citation. | [Source](https://github.com/MohammedAlkindi/pulse) · [Walkthrough](https://pulse-overview.vercel.app/sample.html) |
+| **ContextBill** | Session pricing and token accounting for Claude Code runs, computed from local JSON transcripts. | [Source](https://github.com/MohammedAlkindi/contextbill) · [Demo](https://contextbill.vercel.app) |
 
 ## Selected merged fixes
 
@@ -36,6 +37,6 @@ As of November 2026: **[227+ merged upstream pull requests](https://github.com/s
 
 ## Other work
 
-[contextbill](https://contextbill.vercel.app) prices coding sessions from local transcripts. [OmanX](https://omanx.org) provides sourced visa and compliance guidance for Omani students abroad.
+[OmanX](https://omanx.org) provides sourced visa and compliance guidance for Omani students abroad.
 
 I use coding agents for much of this work and say so wherever a project asks. Off the keyboard: badminton and photography.
