@@ -15,8 +15,6 @@ In summer 2026, I was a data analyst intern at Shell Kuwait, building a Python t
 | **ProofX** | Number-theory experiments with seeded, replayable search ledgers and bounded Lean 4 formal checks. | [Source](https://github.com/MohammedAlkindi/proofx) · [Research notebook](https://www.proofx.org/research) |
 | **Switchyard** | A CLI coordinating parallel coding agents on one repository using isolated Git worktrees and pre-merge collision detection. | [Source](https://github.com/MohammedAlkindi/switchyard) · [Demo](https://switchyardhq.vercel.app) · [npm](https://www.npmjs.com/package/@switchyardhq/switchyard) |
 | **Ridge** | Spreadsheet analysis that computes statistics and data-quality evidence deterministically before optional model interpretation. | [Source](https://github.com/MohammedAlkindi/ridge) · [Demo](https://ridge-data.vercel.app) |
-| **Quant** | Out-of-sample, cost-aware backtesting for trading signals, served over FastAPI with an open numerical audit log (`docs/audit.md`). | [Source](https://github.com/MohammedAlkindi/quant) · [Audit log](https://github.com/MohammedAlkindi/quant/blob/main/docs/audit.md) |
-| **Pulse** | Local-first weekly review of Gmail, GitHub, and Notion activity where every claim carries an inspectable citation. | [Source](https://github.com/MohammedAlkindi/pulse) · [Walkthrough](https://pulse-overview.vercel.app/sample.html) |
 | **ContextBill** | Session pricing and token accounting for Claude Code runs, computed from local JSON transcripts. | [Source](https://github.com/MohammedAlkindi/contextbill) · [Demo](https://contextbill.vercel.app) |
 
 ## Selected merged fixes
