@@ -9,10 +9,11 @@ In summer 2026, I was a data analyst intern at Shell Kuwait, building a Python t
 ---
 
 <p align="left">
-  <a href="https://github.com/search?q=author%3AMohammedAlkindi+-user%3AMohammedAlkindi+is%3Apr+is%3Amerged&type=pullrequests">
-    <img src="assets/merged-by.png" alt="Merged into work maintained by Microsoft, NVIDIA, AWS, rust-lang, Pydantic, and Express" width="100%" />
-  </a>
+  <img src="assets/cards/header.svg" alt="MERGED INTO WORK MAINTAINED BY" height="16" /><br />
+  <a href="https://github.com/search?q=author%3AMohammedAlkindi+org%3Amicrosoft+is%3Apr+is%3Amerged&type=pullrequests"><img src="assets/cards/microsoft.svg" alt="Microsoft" height="76" /></a><a href="https://github.com/search?q=author%3AMohammedAlkindi+org%3ANVIDIA+org%3ANVIDIA-NeMo+is%3Apr+is%3Amerged&type=pullrequests"><img src="assets/cards/nvidia.svg" alt="NVIDIA" height="76" /></a><a href="https://github.com/search?q=author%3AMohammedAlkindi+org%3Aaws+org%3Aaws-powertools+org%3Aaws-samples+is%3Apr+is%3Amerged&type=pullrequests"><img src="assets/cards/aws.svg" alt="AWS" height="76" /></a><a href="https://github.com/search?q=author%3AMohammedAlkindi+org%3Aanthropics+is%3Apr&type=pullrequests"><img src="assets/cards/anthropic.svg" alt="Anthropic" height="76" /></a><a href="https://github.com/search?q=author%3AMohammedAlkindi+org%3Arust-lang+is%3Apr+is%3Amerged&type=pullrequests"><img src="assets/cards/rust.svg" alt="rust-lang" height="76" /></a><a href="https://github.com/search?q=author%3AMohammedAlkindi+org%3Apydantic+is%3Apr+is%3Amerged&type=pullrequests"><img src="assets/cards/pydantic.svg" alt="Pydantic" height="76" /></a><a href="https://github.com/search?q=author%3AMohammedAlkindi+org%3Aexpressjs+is%3Apr+is%3Amerged&type=pullrequests"><img src="assets/cards/express.svg" alt="Express" height="76" /></a>
 </p>
+
+<sub>Also merged at tox, pdm, mcp-use, pywin32, and MindsDB, among others.</sub>
 
 ---
 
