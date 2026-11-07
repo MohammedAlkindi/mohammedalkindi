@@ -11,22 +11,17 @@ In summer 2026, I was a data analyst intern at Shell Kuwait, building a Python t
 ### Merged into work maintained by
 
 <p align="left">
-  <a href="https://github.com/search?q=author%3AMohammedAlkindi+org%3Amicrosoft+is%3Apr+is%3Amerged&type=pullrequests"><img src="https://img.shields.io/badge/Microsoft-161b22?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft" /></a>&nbsp;
-  <a href="https://github.com/search?q=author%3AMohammedAlkindi+org%3ANVIDIA+org%3ANVIDIA-NeMo+is%3Apr+is%3Amerged&type=pullrequests"><img src="https://img.shields.io/badge/NVIDIA-161b22?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA" /></a>&nbsp;
-  <a href="https://github.com/search?q=author%3AMohammedAlkindi+org%3Aaws+org%3Aaws-powertools+org%3Aaws-samples+is%3Apr+is%3Amerged&type=pullrequests"><img src="https://img.shields.io/badge/AWS-161b22?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" /></a>&nbsp;
-  <a href="https://github.com/search?q=author%3AMohammedAlkindi+org%3Arust-lang+is%3Apr+is%3Amerged&type=pullrequests"><img src="https://img.shields.io/badge/rust--lang-161b22?style=for-the-badge&logo=rust&logoColor=white" alt="rust-lang" /></a>&nbsp;
-  <a href="https://github.com/search?q=author%3AMohammedAlkindi+org%3Apydantic+is%3Apr+is%3Amerged&type=pullrequests"><img src="https://img.shields.io/badge/Pydantic-161b22?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic" /></a>&nbsp;
-  <a href="https://github.com/search?q=author%3AMohammedAlkindi+org%3Aexpressjs+is%3Apr+is%3Amerged&type=pullrequests"><img src="https://img.shields.io/badge/Express-161b22?style=for-the-badge&logo=express&logoColor=white" alt="Express" /></a>
+  <a href="https://github.com/search?q=author%3AMohammedAlkindi+-user%3AMohammedAlkindi+is%3Apr+is%3Amerged&type=pullrequests">
+    <img src="assets/merged-by.png" alt="Merged into work maintained by Microsoft, NVIDIA, AWS, rust-lang, Pydantic, and Express" width="100%" />
+  </a>
 </p>
-
-<sub>Also merged at tox, pdm, mcp-use, pywin32, and MindsDB, among others.</sub>
 
 ---
 
 ### Tools I reach for
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,swift,react,nextjs,nodejs,bun,fastapi,electron,pytorch,tailwind,cloudflare,supabase,postgres,docker&perline=8" alt="Tools I reach for" />
+  <img src="assets/tools.svg" alt="Tools I reach for" />
 </p>
 
 ---
@@ -35,10 +30,10 @@ In summer 2026, I was a data analyst intern at Shell Kuwait, building a Python t
 
 | Project | What I built | Explore |
 | --- | --- | --- |
-| **ProofX** | Number-theory experiments with seeded, replayable search ledgers and bounded Lean 4 formal checks. | [Research](https://www.proofx.org/research) |
-| **Switchyard** | Multi-agent coordination CLI with isolated Git worktrees, pre-merge collision detection, and token accounting via ContextBill. | [Source](https://github.com/MohammedAlkindi/switchyard) · [Demo](https://switchyardhq.vercel.app) · [npm](https://www.npmjs.com/package/@switchyardhq/switchyard) |
-| **Ridge** | Spreadsheet analysis computing statistics and data-quality evidence deterministically before optional model interpretation. | [Source](https://github.com/MohammedAlkindi/ridge) · [Demo](https://ridge-data.vercel.app) |
 | **OmanX** | Sourced compliance guidance platform for Omani scholarship students abroad, powered by Anthropic Claude. | [Platform](https://omanx.org) |
+| **ProofX** | Number-theory experiments with seeded, replayable search ledgers and bounded Lean 4 formal checks. | [Research](https://www.proofx.org/research) |
+| **Ridge** | Spreadsheet analysis computing statistics and data-quality evidence deterministically before optional model interpretation. | [Source](https://github.com/MohammedAlkindi/ridge) · [Demo](https://ridge-data.vercel.app) |
+| **Switchyard** | Multi-agent coordination CLI with isolated Git worktrees, pre-merge collision detection, and automated token budgeting. | [Source](https://github.com/MohammedAlkindi/switchyard) · [Demo](https://switchyardhq.vercel.app) · [npm](https://www.npmjs.com/package/@switchyardhq/switchyard) |
 
 ## Selected merged fixes
 
