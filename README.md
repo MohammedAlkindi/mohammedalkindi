@@ -8,8 +8,6 @@ In summer 2026, I was a data analyst intern at Shell Kuwait, building a Python t
 
 ---
 
-### Merged into work maintained by
-
 <p align="left">
   <a href="https://github.com/search?q=author%3AMohammedAlkindi+-user%3AMohammedAlkindi+is%3Apr+is%3Amerged&type=pullrequests">
     <img src="assets/merged-by.png" alt="Merged into work maintained by Microsoft, NVIDIA, AWS, rust-lang, Pydantic, and Express" width="100%" />
